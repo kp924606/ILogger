@@ -54,6 +54,7 @@
 /// This software is provided without any express or implied warranties, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
 /// To the maximum extent permitted by applicable law, the developer shall not be liable for any damages or risks arising from the use or inability to use this software, including but not limited to direct or indirect personal injury, loss of commercial profits, business interruption, loss of business information, or any other economic loss.
 
+using ILogger.Enum;
 using Judgment;
 using System;
 using System.Collections.Generic;
@@ -68,6 +69,8 @@ namespace ILogger.AP
         #region Property
         public Code ReasonCode { get; set; }
 
+        public ILogType ILogType { get; set; }
+
         #endregion
 
         #region Constructor
@@ -75,8 +78,15 @@ namespace ILogger.AP
             : base(message)
         {
             this.ReasonCode = RC;
+            this.ILogType = ILogType.Catch;
         }
 
+        public ExpectedInfo(string? message, Code RC, ILogType ilt)
+            : base(message)
+        {
+            this.ReasonCode = RC;
+            this.ILogType = ilt;
+        }
         #endregion
     }
 }

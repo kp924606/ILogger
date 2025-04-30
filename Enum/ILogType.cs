@@ -103,5 +103,16 @@ namespace ILogger.Enum
         /// Catch
         /// </summary>
         Pass,
+
+
+        ShowInfo,
+
+        ShowAlarm,
+
+        ShowError,
+
+        ShowFail,
+
+        ShowCatch,
     }
 }

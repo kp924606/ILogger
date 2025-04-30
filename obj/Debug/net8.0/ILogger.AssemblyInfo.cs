@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ILogger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d04efb0947becfbd344b01af3116af8087b38280")]
 [assembly: System.Reflection.AssemblyProductAttribute("ILogger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ILogger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -70,6 +70,10 @@ namespace ILogger.AP
     /// </summary>
     public class LogInfo : ILogInfo
     {
+        #region Static
+        public static Action<ILogInfo>? Communication { get; set; }
+        #endregion
+
         #region Implement Interfaces
         public ILogType Type { get; set; }
 

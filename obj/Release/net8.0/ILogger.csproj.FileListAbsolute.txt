@@ -29,3 +29,4 @@ D:\蔡承廷\Development\My\ILogger\obj\Release\net8.0\ILogger.dll
 D:\蔡承廷\Development\My\ILogger\obj\Release\net8.0\refint\ILogger.dll
 D:\蔡承廷\Development\My\ILogger\obj\Release\net8.0\ILogger.pdb
 D:\蔡承廷\Development\My\ILogger\obj\Release\net8.0\ref\ILogger.dll
+D:\蔡承廷\Development\My\ILogger\obj\Release\net8.0\ILogger.sourcelink.json
